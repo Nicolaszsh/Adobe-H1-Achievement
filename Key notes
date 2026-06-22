@@ -1,0 +1,95 @@
+Automation to save manual effort: 
+ACM:SMS auto reply key words update
+ACM: Workflow Schedule Spread - Batch
+ACM: Weekly Active Customer Profiles 
+CDP:SG, HK Health check report automation
+CDP:license utilzaiton report 
+
+Oberservability & Monitor:
+Last 2 weeks delivery volume report for SG,HK 
+countries all channels
+Messages queued error - alert setup
+
+Proof Point Block Monitoring - TW
+UAE,Active Profile Threshold Alert - TW
+UAE,Channel wise bounce report
+Pending offer Report Consolidation
+
+Upgrade: ACM upgrade , new client console onboarding 
+
+CDP: data ingestion and audient activiatoin error , warning message consolidation. 
+Workfront: 900+ user groups setup 
+
+RCA:  5/18/10
+
+BAU: 
+187 incidents
+17 changes
+48 vendor tickets
+749 tasks
+
+
+Key Challenges
+System capacity optimization
+ACM high DB utilization(80), risk of storage constraints and performance impact
+ACM –  Absence of structured capacity analysis framework
+Limited monitor coverage
+ACM –  RTIM batch rejects  – lack of alerting
+ACM – New market onboarding (TW,UAE) ,  monitoring coverage gaps
+ACM – Bounce rate and delivery metrics
+Manual Work
+ACM - (Prospect)Active Profile Volume
+ACM - HK SMS auto reply Keywords update
+CDP - License usage metrics (under review)
+CDP – Health check
+WorkFront – Health Check(under review)
+
+
+ACM achievement
+
+300 CCC members onboarded
+a, accesss provisioin
+b, client console installation 
+c, individual folder creation and team orchestration 
+d, issue identification and clarification 
+
+
+CDP
+
+dataflow error identification 
+a. error investigation 
+b. errors can be ignored 
+
+
+CDP issue:
+1. Corrupt file from athena 
+2. Dataflow - Pega NBA CDP_HK invalid data issue 
+CDP-Ehancement - dataflow Metrics missing 
+3. alert configuration
+
+Health check report
+a, Grafana dashboard integration: MSL --> CDP 
+b, license usage report integration :CDP license usage 
+c, dataflow metrics & errors 
+d, errors that can be ignored suppression 
+e, new markets onboarding: IN, TW
+
+AEC 
+1. Support AAM decom 
+2. VN market onboarded
+4. TW user migration， IN user migration， UAE user migration 
+5. Applicaiton onboard Entra and offboard from ForgeRock
+6. report suite transfer and segment unpublish 
+
+Certificate renewal
+ACM: HK, IN , SG, TW, UAE
+AEC, AEC, Appsflyer: Entra cert
+
+
+Access management
+1. User access provision according to SRM request(ACM, AEC(including Firefly & CDP ), WF, Appsfly )
+2. CSR fulfullment and non compliance remediation 
+3. AEC user migration(TW, IN，UAE, HK), huge amount of CSR gaps-- automation 
+4. URA onboard support
+5. Issue identified in URA in prod 
+
